@@ -102,7 +102,7 @@ The full breakdown with concepts, diagrams, and deep dives is available in **[Da
 
 | Phase | Module | Focus Area & Key Topics | Weight / Priority |
 |:---:|:---|:---|:---:|
-| **01** | [Azure Fundamentals](Day-01/Roadmap.md#phase-1--azure-fundamentals) | Cloud models (IaaS/PaaS/SaaS), Regions, Availability Zones, HA, DR, CapEx vs. OpEx | ⭐️ |
+| **01** | [Azure Fundamentals](Day-01/Roadmap.md#phase-1--azure-fundamentals) &middot; [Day-02 Deep Dive](Day-02/azure-fundamentals.md) | Cloud models (IaaS/PaaS/SaaS), Regions, Availability Zones, HA, DR, CapEx vs. OpEx | ⭐️ |
 | **02** | [Azure Structure](Day-01/Roadmap.md#phase-2--azure-structure-) | Tenant, Management Groups, Subscriptions, Resource Groups, and Resources | ⭐️ |
 | **03** | [Azure Identity](Day-01/Roadmap.md#phase-3--azure-identity-) | Microsoft Entra ID, Service Principals, Managed Identities, Roles & RBAC scopes | ⭐️⭐️⭐️ |
 | **04** | [Azure Networking](Day-01/Roadmap.md#phase-4--azure-networking-) | VNets, Subnets, CIDR, NSGs, Layer 4 Load Balancer, Layer 7 App Gateway, Private Endpoints | ⭐️⭐️⭐️ |
@@ -124,8 +124,10 @@ The full breakdown with concepts, diagrams, and deep dives is available in **[Da
 ```text
 azure-zero-to-mastery/
 ├── README.md               # Repository documentation and index
-└── Day-01/
-    └── Roadmap.md          # 14-Phase comprehensive Azure learning roadmap
+├── Day-01/
+│   └── Roadmap.md          # 14-Phase comprehensive Azure learning roadmap
+└── Day-02/
+    └── azure-fundamentals.md # Core cloud concepts, service models, and global infrastructure
 ```
 
 *More day-by-day practical exercises, Terraform configurations, and deployment manifests will be added as the series progresses.*
